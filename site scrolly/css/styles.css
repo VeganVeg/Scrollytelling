@@ -1,0 +1,81 @@
+:root{
+    --saumon: #EF6F6C;
+    --marin: #465775;
+    --cameleon: #59C9A5;
+    --gris: #95A3B3;
+    --vert: #56E39F;
+    --blanc: #E5EAFA;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p3/4482791-lever-du-soleil-dans-les-montagnes-nature-paysage-fond-le-soleil-brille-derriere-les-montagnes-avec-l-air-frais-du-matin-sous-l-aube-ciel-matin-vue-cartoon-vector-illustration-vectoriel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titre{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+    color: var(--blanc);
+    font-family: 'Raleway';
+}
+
+.description{
+    font-size: 11px;
+    font-family: 'Nunito';
+    color: var(--blanc);
+    position: relative;
+    top: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.scrollDown{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 65vh;
+}
+
+section{
+    width: 100vw;
+    height: auto;
+    font-size: 0px;
+}
+
+.bgimg{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    height: 10000px;
+}
+
+.balle{
+    width: 500px;
+    height: 500px;
+    background-image: url(/img/balle_spritesheet.png);
+    border: dotted 1px #ff8487;
+    animation-name: roule;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-timing-function: steps(48);
+    animation-play-state: paused;
+}
+
+@keyframes roule {
+    from { background-position: 0 0; }
+    to { background-position: -24000px 0; }
+  }
