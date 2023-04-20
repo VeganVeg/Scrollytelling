@@ -13,3 +13,12 @@
 <ul>
   <li>Dominic Yale</li>
 </ul>
+
+##Technologies
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li><a href="https://greensock.com/gsap/">Librairie d'animation GSAP</a></li>
+  <li><a href="[https://greensock.com/](https://greensock.com/scrolltrigger/)">Plugiciel ScrollTrigger</a></li>
+</ul>
