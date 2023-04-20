@@ -1,4 +1,4 @@
 #Projet Scrollytelling: Le chemin de la balle
 
-##Projet scolaire dans le cadre du cours:
+##Projet scolaire dans le cadre du cours: <bar>
 <a href="https://tim-montmorency.com/timdoc/582-424MO/projet-scrollytelling/">Optimisation Web-Projet Scrollytelling</a>
