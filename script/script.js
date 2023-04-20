@@ -1,7 +1,12 @@
 const arrows = document.querySelector('.arrows');
 
-const animation = Gsap.to('.arrows', { 
-    duration: 2,
-    x: '400%'
+const animation = gsap.to('.arrows', { 
+    duration: 0.8,
+    y: '50%',
+    repeat: -1,
+    yoyo: true
   });
-  animation.play()
+
+  window.addEventListener('scroll', function(){
+    
+  })
