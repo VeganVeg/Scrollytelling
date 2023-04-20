@@ -8,5 +8,7 @@ const animation = gsap.to('.arrows', {
   });
 
   window.addEventListener('scroll', function(){
-    
+    setTimeout(function() {
+      console.log("⏰");
+    }, 100)
   })
