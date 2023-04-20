@@ -8,3 +8,8 @@
   <li>Dominic Yale</li>
   <li>Érick Ouellette</li>
 </ul>
+
+## Développement Web
+<ul>
+  <li>Dominic Yale</li>
+</ul>
