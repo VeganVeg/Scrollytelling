@@ -1,4 +1,5 @@
 const arrows = document.querySelector('.arrows');
+const scrolling = document.querySelector('.is-scrolling')
 
 const animation = gsap.to('.arrows', { 
     duration: 0.8,
@@ -9,6 +10,7 @@ const animation = gsap.to('.arrows', {
 
   window.addEventListener('scroll', function(){
     setTimeout(function() {
-      console.log("⏰");
+      scrolling.classList.remove('is-scrolling');
+      console.log('test')
     }, 100)
   })
