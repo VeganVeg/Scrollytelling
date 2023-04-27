@@ -52,7 +52,28 @@ section {
     font-size: 0px;
 }
 
-.bgimg {
+#chapitre-1 .bgimg {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+}
+#chapitre-2 .bgimg {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+}
+
+#chapitre-3 .bgimg {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+}
+
+#chapitre-4 .bgimg {
+    position: absolute;
     width: 100vw;
     height: auto;
     background-size: cover;
