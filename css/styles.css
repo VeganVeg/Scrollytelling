@@ -55,7 +55,12 @@ section {
 .bgimg {
     width: 100vw;
     height: auto;
-    background-size: contain;
+    background-size: cover;
+}
+
+.elementVisuel{
+ position: relative;
+    
 }
 
 .balle {
