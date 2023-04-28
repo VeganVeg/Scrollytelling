@@ -50,6 +50,7 @@ section {
     width: 100vw;
     height: auto;
     font-size: 0px;
+    position: relative;
 }
 
 #chapitre-1 .bgimg {
@@ -73,6 +74,20 @@ section {
 }
 
 #chapitre-4 .bgimg {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+}
+
+#chapitre-5 .bgimg {
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+}
+
+#chapitre-6 .bgimg {
     position: absolute;
     width: 100vw;
     height: auto;
