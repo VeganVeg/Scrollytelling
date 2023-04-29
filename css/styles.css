@@ -87,21 +87,30 @@ section {
 
 .obstacle2{
     position:absolute;
-    width: 55vw;
+    width: 50%;
     height: auto;
-    top: 300px;
-    left: 50px;
+    top: 5%;
+    left: 10%;
     rotate: 12deg;
 }
 
 .obstacle3{
     position: absolute;
-    width: 55vw;
+    width: 50%;
     height: auto;
-    top: 650px;
-    left: 650px;
+    top: 10%;
+    left: 5%;
     rotate: -12deg;
 }
+
+.elementVisuel2{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    height: auto;
+}
+
+
 
 
 #chapitre-3 {
@@ -115,10 +124,24 @@ section {
 
 .obstacle4{
     position: absolute;
-    width: 15vw;
+    width: 45%;
     height: auto;
-    top: 500px;
-    left: 0px;
+    rotate: 12deg;
+}
+
+.obstacle5{
+    position: absolute;  
+    width: 25%;
+    left: 45%;
+    top: -10%;
+    height: auto;
+}
+
+.elementVisuel3{
+    position: absolute;
+    width: 100%;
+    top: 300px;
+    height: auto;
 }
 
 
@@ -152,7 +175,7 @@ section {
 }
 
 .elementVisuel{
- position: relative; 
+ position: absolute;
 }
 
 .balle {
