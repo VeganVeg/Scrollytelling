@@ -1,4 +1,4 @@
-gsap.registerPlugin(MotionPathPlugin);
+//gsap.registerPlugin(MotionPathPlugin);
 
 const arrows = document.querySelector('.arrows');
 const scrolling = document.body
