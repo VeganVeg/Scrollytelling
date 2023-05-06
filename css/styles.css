@@ -345,6 +345,13 @@ main {
     font-family: 'Raleway';
 }
 
+.trace{
+    position: absolute;
+    height: 5193px;
+    right: 568px;
+    top: 1214px;
+    z-index: 1;
+}
 
 
 
