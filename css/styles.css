@@ -51,6 +51,7 @@ section {
     height: auto;
     font-size: 0px;
     position: relative;
+    border: 1px solid red;
 }
 
 main {
