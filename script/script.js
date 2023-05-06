@@ -38,7 +38,7 @@ let timeline2 = gsap.timeline()
 gsap.to('.balle',{
   ScrollTrigger: {
     trigger: '#chapitre-1',
-    markers: true
+    markers: true,
   }
 })
 
