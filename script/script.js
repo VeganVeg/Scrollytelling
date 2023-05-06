@@ -38,5 +38,36 @@ let timeline2 = gsap.timeline()
 gsap.to('.balle',{
   ScrollTrigger: {
     trigger: '#chapitre-1',
+    markers: true
+  }
+})
+
+gsap.to('.balle',{
+  ScrollTrigger: {
+    trigger: '#chapitre-2',
+  }
+})
+
+gsap.to('.balle',{
+  ScrollTrigger: {
+    trigger: '#chapitre-3',
+  }
+})
+
+gsap.to('.balle',{
+  ScrollTrigger: {
+    trigger: '#chapitre-4',
+  }
+})
+
+gsap.to('.balle',{
+  ScrollTrigger: {
+    trigger: '#chapitre-5',
+  }
+})
+
+gsap.to('.balle',{
+  ScrollTrigger: {
+    trigger: '#chapitre-6',
   }
 })
