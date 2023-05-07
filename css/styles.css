@@ -52,6 +52,7 @@ section {
     font-size: 0px;
     position: relative;
     border: 1px solid red;
+    
 }
 
 main {
@@ -349,12 +350,19 @@ main {
 .trace{
     position: absolute;
     height: 5193px;
-    right: 568px;
+    right: 110px;
     top: 1214px;
     z-index: 1;
 }
 
-
+.element {
+    position: absolute;
+    background-color: #465775;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    z-index: 1;
+  }
 
 
 .balle {
@@ -369,6 +377,7 @@ main {
     animation-timing-function: steps(48);
     animation-play-state: running;
     aspect-ratio: 1/1;
+    z-index: 1;
 }
 
 .is-scrolling .balle {
@@ -381,6 +390,6 @@ main {
     }
 
     to {
-        background-position: 4800% 0;
+        background-position: 550px 0;
     }
 }

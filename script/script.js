@@ -1,4 +1,4 @@
-//gsap.registerPlugin(MotionPathPlugin);
+gsap.registerPlugin(MotionPathPlugin);
 gsap.registerPlugin(ScrollTrigger);
 
 const arrows = document.querySelector('.arrows');
@@ -35,39 +35,40 @@ let timeline2 = gsap.timeline()
   .to('.texteC5', {y:'40px', yoyo: true, repeat: -1, duration: 2}, '<')
   .to('.texteC6', {y:'40px', yoyo: true, repeat: -1, duration: 2}, '<')
 
-gsap.to('.balle',{
+gsap.to('.balle', {
   ScrollTrigger: {
     trigger: '#chapitre-1',
     markers: true,
   }
 })
 
-gsap.to('.balle',{
+gsap.to('.balle', {
   ScrollTrigger: {
     trigger: '#chapitre-2',
   }
 })
 
-gsap.to('.balle',{
+gsap.to('.balle', {
   ScrollTrigger: {
     trigger: '#chapitre-3',
   }
 })
 
-gsap.to('.balle',{
+gsap.to('.balle', {
   ScrollTrigger: {
     trigger: '#chapitre-4',
   }
 })
 
-gsap.to('.balle',{
+gsap.to('.balle', {
   ScrollTrigger: {
     trigger: '#chapitre-5',
   }
 })
 
-gsap.to('.balle',{
+gsap.to('.balle', {
   ScrollTrigger: {
     trigger: '#chapitre-6',
   }
 })
+
