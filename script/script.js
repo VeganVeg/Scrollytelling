@@ -35,40 +35,52 @@ let timeline2 = gsap.timeline()
   .to('.texteC5', {y:'40px', yoyo: true, repeat: -1, duration: 2}, '<')
   .to('.texteC6', {y:'40px', yoyo: true, repeat: -1, duration: 2}, '<')
 
-gsap.to('.balle', {
+gsap.to('#chapitre-1', {
   ScrollTrigger: {
-    trigger: '#chapitre-1',
     markers: true,
-  }
+    trigger: '#chapitre-1',
+  },
+  x: '100%',
+  duration: 2,
 })
 
-gsap.to('.balle', {
+gsap.to('#chapitre-2', {
   ScrollTrigger: {
     trigger: '#chapitre-2',
   }
 })
 
-gsap.to('.balle', {
+gsap.to('#chapitre-3', {
   ScrollTrigger: {
     trigger: '#chapitre-3',
   }
 })
 
-gsap.to('.balle', {
+gsap.to('#chapitre-4', {
   ScrollTrigger: {
     trigger: '#chapitre-4',
   }
 })
 
-gsap.to('.balle', {
+gsap.to('#chapitre-5', {
   ScrollTrigger: {
     trigger: '#chapitre-5',
   }
 })
 
-gsap.to('.balle', {
+gsap.to('#chapitre-6', {
   ScrollTrigger: {
     trigger: '#chapitre-6',
   }
+})
+
+gsap.to('.no2', {
+  motionPath: {
+    align: '#courbe',
+    path: '#courbe'
+  },
+  duration: 20,
+  repeat: -1,
+  yoyo: true,
 })
 

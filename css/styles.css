@@ -366,7 +366,8 @@ main {
 
 
 .balle {
-    width: 50vw;
+    width: 500px;
+    height: 500px;
     background-image: url(../img/balle_spritesheet.png);
     border: dotted 1px #ff8487;
     animation-name: roule;
@@ -390,6 +391,6 @@ main {
     }
 
     to {
-        background-position: 550px 0;
+        background-position: -24000px 0;
     }
 }
