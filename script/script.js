@@ -35,13 +35,11 @@ let timeline2 = gsap.timeline()
   .to('.texteC5', {y:'40px', yoyo: true, repeat: -1, duration: 2}, '<')
   .to('.texteC6', {y:'40px', yoyo: true, repeat: -1, duration: 2}, '<')
 
-gsap.to('', {
+gsap.to('#chapitre-1', {
   ScrollTrigger: {
     markers: true,
     trigger: '#chapitre-1',
-  },
-  x: '100%',
-  duration: 2,
+  }
 })
 
 gsap.to('#chapitre-2', {
