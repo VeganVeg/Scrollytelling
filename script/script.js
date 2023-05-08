@@ -75,7 +75,7 @@ gsap.to('#chapitre-6', {
 gsap.to('.no2', {
   motionPath: {
     align: '#courbe',
-    path: '#courbe'
+    path: '#courbe',
   },
   duration: 20,
   repeat: -1,
