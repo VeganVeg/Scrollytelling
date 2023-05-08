@@ -40,10 +40,11 @@ gsap.to('#chapitre-1', {
     markers: true,
     trigger: '#chapitre-1',
   }
-})
+});
 
 gsap.to('#chapitre-2', {
   ScrollTrigger: {
+    markers: true,
     trigger: '#chapitre-2',
   }
 })
