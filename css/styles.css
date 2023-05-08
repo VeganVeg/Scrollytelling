@@ -64,7 +64,7 @@ main {
 
 #chapitre-1 {
     position: relative;
-    background-image: url(https://images.wallpaperscraft.com/image/single/minimalism_sky_clouds_95458_1920x1080.jpg);
+    background-image: url();
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -101,7 +101,7 @@ main {
 
 #chapitre-2 {
     position: relative;
-    background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p3/5004101-coucher-de-soleil-en-montagnes-nature-paysage-fond-crepuscule-ciel-en-violet-soiree-vue-plat-vector-illustration-vectoriel.jpg);
+    background-image: url();
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -150,7 +150,7 @@ main {
 
 #chapitre-3 {
     position: relative;
-    background-image: url(https://wallpapercave.com/wp/wp7563372.jpg);
+    background-image: url();
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -196,7 +196,7 @@ main {
 
 #chapitre-4 {
     position: relative;
-    background-image: url(https://wallpapercave.com/wp/wp7563300.png);
+    background-image: url();
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -238,7 +238,7 @@ main {
 
 #chapitre-5 {
     position: relative;
-    background-image: url(https://wallpapercave.com/wp/wp7563506.jpg);
+    background-image: url();
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -294,12 +294,12 @@ main {
     font-family: 'Raleway';
 }
 
-
+.bg1
 
 
 #chapitre-6 {
     position: relative;
-    background-image: url(https://wallpapercave.com/wp/wp10441559.jpg);
+    background-image: url();
     width: 100%;
     height: 100vh;
     background-size: cover;
