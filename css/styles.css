@@ -47,12 +47,8 @@ header {
 }
 
 section {
-    width: 100vw;
-    height: auto;
     font-size: 0px;
-    position: relative;
     border: 1px solid red;
-    
 }
 
 main {
@@ -68,26 +64,26 @@ main {
     height: 100vh;
 }
 
-.bg1{
+.bg1 {
     object-fit: cover;
     object-position: 0 0;
 }
 
-.obstacle1{
+.obstacle1 {
     position: absolute;
     width: 25%;
     height: auto;
     right: 20%;
 }
 
-.elementVisuel1{
+.elementVisuel1 {
     position: absolute;
     width: 100%;
     top: 250px;
     height: 1%;
 }
 
-.texteC1{
+.texteC1 {
     position: relative;
     top: 150px;
     display: flex;
@@ -107,13 +103,13 @@ main {
     height: 100vh;
 }
 
-.bg2{
+.bg2 {
     object-fit: cover;
     object-position: 0 0;
 }
 
-.obstacle2{
-    position:absolute;
+.obstacle2 {
+    position: absolute;
     width: 45%;
     height: auto;
     top: 1vw;
@@ -121,7 +117,7 @@ main {
     rotate: 12deg;
 }
 
-.obstacle3{
+.obstacle3 {
     position: absolute;
     width: 45%;
     height: auto;
@@ -130,14 +126,14 @@ main {
     rotate: -12deg;
 }
 
-.elementVisuel2{
+.elementVisuel2 {
     position: absolute;
     width: 100%;
     top: 300px;
     height: 1%;
 }
 
-.texteC2{
+.texteC2 {
     position: relative;
     top: 150px;
     left: 15%;
@@ -158,34 +154,34 @@ main {
     height: 100vh;
 }
 
-.bg3{
+.bg3 {
     object-fit: cover;
     object-position: 0 0;
 }
 
-.obstacle4{
+.obstacle4 {
     position: absolute;
     width: 45%;
     height: auto;
     rotate: 12deg;
 }
 
-.obstacle5{
-    position: absolute;  
+.obstacle5 {
+    position: absolute;
     width: 25%;
     left: 45%;
     top: -100%;
     height: auto;
 }
 
-.elementVisuel3{
+.elementVisuel3 {
     position: absolute;
     width: 100%;
     top: 300px;
     height: 5px;
 }
 
-.texteC3{
+.texteC3 {
     position: relative;
     top: 150px;
     left: 15%;
@@ -206,32 +202,32 @@ main {
     height: 100vh;
 }
 
-.bg4{
+.bg4 {
     object-fit: cover;
     object-position: 0 0;
 }
 
-.obstacle6{
+.obstacle6 {
     position: absolute;
     width: 33%;
     left: 15%;
 }
 
-.obstacle7{
+.obstacle7 {
     position: absolute;
     width: 40%;
     left: 48%;
     top: 0.7vw;
 }
 
-.elementVisuel4{
+.elementVisuel4 {
     position: absolute;
     width: 100%;
     top: 300px;
     height: 5px;
 }
 
-.texteC4{
+.texteC4 {
     position: relative;
     top: 150px;
     left: 15%;
@@ -250,18 +246,18 @@ main {
     height: 100vh;
 }
 
-.bg5{
+.bg5 {
     object-fit: cover;
     object-position: 0 0;
 }
 
-.obstacle8{
+.obstacle8 {
     position: absolute;
     width: 25%;
     left: 35%;
 }
 
-.obstacle9{
+.obstacle9 {
     position: absolute;
     width: 25%;
     rotate: -12deg;
@@ -269,7 +265,7 @@ main {
     right: 25%;
 }
 
-.obstacle10{
+.obstacle10 {
     position: absolute;
     width: 25%;
     rotate: 12deg;
@@ -277,7 +273,7 @@ main {
     left: 25%;
 }
 
-.obstacle11{
+.obstacle11 {
     position: absolute;
     width: 25%;
     rotate: -12deg;
@@ -285,14 +281,14 @@ main {
     right: 25%;
 }
 
-.elementVisuel5{
+.elementVisuel5 {
     position: absolute;
     width: 100%;
     top: 150px;
     height: 5px;
 }
 
-.texteC5{
+.texteC5 {
     position: relative;
     top: 150px;
     left: 25%;
@@ -313,19 +309,19 @@ main {
     height: 100vh;
 }
 
-.bg6{
+.bg6 {
     object-fit: cover;
     object-position: 0 0;
 }
 
-.obstacle12{
+.obstacle12 {
     position: absolute;
     width: 30%;
     left: 15%;
     bottom: 2vw;
 }
 
-.obstacle13{
+.obstacle13 {
     position: absolute;
     width: 30%;
     right: 15%;
@@ -333,21 +329,21 @@ main {
     transform: scaleX(-1);
 }
 
-.obstacle14{
+.obstacle14 {
     position: absolute;
     width: 40%;
     left: 30%;
     top: 1vw;
 }
 
-.elementVisuel6{
+.elementVisuel6 {
     position: absolute;
     width: 100%;
     top: 600px;
     height: 5px;
 }
 
-.texteC6{
+.texteC6 {
     position: relative;
     top: 150px;
     right: 15%;
@@ -359,7 +355,7 @@ main {
     font-family: 'Raleway';
 }
 
-.trace{
+.trace {
     position: absolute;
     height: 5193px;
     right: 110px;
@@ -374,7 +370,7 @@ main {
     height: 30px;
     padding: 0;
     z-index: 1;
-  }
+}
 
 
 .balle {
