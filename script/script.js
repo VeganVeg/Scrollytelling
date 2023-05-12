@@ -35,52 +35,158 @@ let timeline2 = gsap.timeline()
   .to('.texteC6', { y: '40px', yoyo: true, repeat: -1, duration: 2 }, '<')
 
 
+
 gsap.to('#chapitre-1', {
   scrollTrigger: {
+    pin: true,
+    pin: '.trace',
     markers: true,
     trigger: '#chapitre-1',
-    start: '0%',
-    end: '100%'
+    start: '0% 0%',
+    end: '100% 50%',
+    onUpdate: (e) => {
+
+    }
   }
 });
 
+gsap.to('#chapitre-1', {
+  scrollTrigger: {
+    pin: true,
+    markers: true,
+    trigger: '#chapitre-1',
+    start: '0% 0%',
+    end: '100% 50%',
+  }
+});
+
+
+
 gsap.to('#chapitre-2', {
   scrollTrigger: {
+    pin: true,
+    pin: '.trace',
     markers: true,
     trigger: '#chapitre-2',
+    start: '0% 0%',
+    end: '100% 50%',
+  }
+})
+
+gsap.to('#chapitre-2', {
+  scrollTrigger: {
+    pin: true,
+    markers: true,
+    trigger: '#chapitre-2',
+    start: '0% 0%',
+    end: '100% 50%',
+  }
+})
+
+
+
+gsap.to('#chapitre-3', {
+  scrollTrigger: {
+    pin: true,
+    pin: '.trace',
+    markers: true,
+    trigger: '#chapitre-3',
+    start: '0% 0%',
+    end: '100% 50%',
   }
 })
 
 gsap.to('#chapitre-3', {
   scrollTrigger: {
+    pin: true,
+    markers: true,
     trigger: '#chapitre-3',
+    start: '0% 0%',
+    end: '100% 50%',
+  }
+})
+
+
+
+gsap.to('#chapitre-4', {
+  scrollTrigger: {
+    pin: true,
+    pin: '.trace',
+    markers: true,
+    trigger: '#chapitre-4',
+    start: '0% 0%',
+    end: '100% 50%',
   }
 })
 
 gsap.to('#chapitre-4', {
   scrollTrigger: {
+    pin: true,
+    markers: true,
     trigger: '#chapitre-4',
+    start: '0% 0%',
+    end: '100% 50%',
+  }
+})
+
+
+
+gsap.to('#chapitre-5', {
+  scrollTrigger: {
+    pin: true,
+    pin: '.trace',
+    markers: true,
+    trigger: '#chapitre-5',
+    start: '0% 0%',
+    end: '100% 50%',
   }
 })
 
 gsap.to('#chapitre-5', {
   scrollTrigger: {
+    pin: true,
+    markers: true,
     trigger: '#chapitre-5',
+    start: '0% 0%',
+    end: '100% 50%',
+  }
+})
+
+
+
+gsap.to('#chapitre-6', {
+  scrollTrigger: {
+    pin: true,
+    pin: '.trace',
+    markers: true,
+    trigger: '#chapitre-6',
+    start: '0% 0%',
+    end: '100% 50%',
   }
 })
 
 gsap.to('#chapitre-6', {
   scrollTrigger: {
+    pin: true,
+    markers: true,
     trigger: '#chapitre-6',
+    start: '0% 0%',
+    end: '100% 50%',
   }
 })
+
+window.addEventListener('scroll', function () {
+
+})
+
 gsap.to('.no2', {
   motionPath: {
+    scrub: 1,
     align: '#courbe',
     path: '#courbe',
   },
   duration: 20,
   repeat: -1,
-  yoyo: true,
+
 })
 
