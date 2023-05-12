@@ -1,5 +1,5 @@
 gsap.registerPlugin(MotionPathPlugin);
-gsap.registerPlugin(scrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 const arrows = document.querySelector('.arrows');
 const scrolling = document.body
@@ -36,39 +36,41 @@ let timeline2 = gsap.timeline()
 
 
 gsap.to('#chapitre-1', {
-  ScrollTrigger: {
+  scrollTrigger: {
     markers: true,
     trigger: '#chapitre-1',
+    start: '0%',
+    end: '100%'
   }
 });
 
 gsap.to('#chapitre-2', {
-  ScrollTrigger: {
+  scrollTrigger: {
     markers: true,
     trigger: '#chapitre-2',
   }
 })
 
 gsap.to('#chapitre-3', {
-  ScrollTrigger: {
+  scrollTrigger: {
     trigger: '#chapitre-3',
   }
 })
 
 gsap.to('#chapitre-4', {
-  ScrollTrigger: {
+  scrollTrigger: {
     trigger: '#chapitre-4',
   }
 })
 
 gsap.to('#chapitre-5', {
-  ScrollTrigger: {
+  scrollTrigger: {
     trigger: '#chapitre-5',
   }
 })
 
 gsap.to('#chapitre-6', {
-  ScrollTrigger: {
+  scrollTrigger: {
     trigger: '#chapitre-6',
   }
 })
