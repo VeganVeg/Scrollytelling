@@ -1,4 +1,5 @@
 gsap.registerPlugin(MotionPathPlugin);
+gsap.registerPlugin(scrollTrigger);
 
 const arrows = document.querySelector('.arrows');
 const scrolling = document.body
@@ -33,7 +34,6 @@ let timeline2 = gsap.timeline()
   .to('.texteC5', { y: '40px', yoyo: true, repeat: -1, duration: 2 }, '<')
   .to('.texteC6', { y: '40px', yoyo: true, repeat: -1, duration: 2 }, '<')
 
-gsap.registerPlugin(scrollTrigger);
 
 gsap.to('#chapitre-1', {
   ScrollTrigger: {
