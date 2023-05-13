@@ -181,12 +181,14 @@ window.addEventListener('scroll', function () {
 
 gsap.to('.no2', {
   motionPath: {
-    scrub: 1,
     align: '#courbe',
     path: '#courbe',
   },
-  duration: 20,
-  repeat: -1,
+  scrollTrigger: {
+    trigger: '.no2',
+    start: '0% 0%',
+    end: '100% 50%',
+  }
 
 })
 
