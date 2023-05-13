@@ -1,4 +1,4 @@
-gsap.registerPlugin(MotionPathPlugin);
+//gsap.registerPlugin(MotionPathPlugin);//
 gsap.registerPlugin(ScrollTrigger);
 
 const arrows = document.querySelector('.arrows');
@@ -179,7 +179,7 @@ window.addEventListener('scroll', function () {
 
 })
 
-gsap.to('.no2', {
+/*gsap.to('.no2', {
   motionPath: {
     align: '#courbe',
     path: '#courbe',
@@ -190,5 +190,5 @@ gsap.to('.no2', {
     end: '100% 50%',
   }
 
-})
+})*/
 
